@@ -4,5 +4,8 @@ setup(
     name = "jpypackage",
     version = "0.1",
     packages = find_packages(),
-    description = "Utility functions and miscellaneous code chunks for Python workflows and work-related stuff."
+    description = "Utility functions and miscellaneous code chunks for Python workflows and work-related stuff.",
+    author = "Jack Penzer",
+    author_email = "jack.penzer@sharecreative.com",
+    license = "MIT"    
 )
