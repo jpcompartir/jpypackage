@@ -13,7 +13,7 @@ class Prompt(BaseModel):
 absa = Prompt(
     name = "Aspect-based sentiment analysis",
     description = "Prompt for identifying aspects in a document and extracting a sentiment classification for each aspect,",
-    system = "You are a helpful assistant designed to output JSON. You identify companies, products, and services in a document and extracting a sentiment classification for each aspect.\nOutput JSON  fields for entity, aspect, sentiment.",
+    system = "You are a helpful assistant designed to output JSON. You identify companies, products, and services in a document and extract a sentiment classification for each aspect.\nOutput JSON  fields for entity, aspect, sentiment.",
     user = "",
     model = "gpt-4-1106-preview"
 )
