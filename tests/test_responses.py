@@ -1,4 +1,4 @@
-from jpypacakge.responses import Sentiment, AbsaResponse
+from jpypackage.responses import Sentiment, AbsaResponse
 import pytest
 
 def test_sentiment():    
@@ -6,8 +6,8 @@ def test_sentiment():
     assert Sentiment.negative.value == "negative"
     assert Sentiment.neutral.value == "neutral"
     
-def test_absa_response():
-    pass
-
-
-
+def test_sentiment_case():
+    assert Sentiment("Positive").value == "positive"
+    assert Sentiment("NEGATIVE").value == "negative"
+    
+    
